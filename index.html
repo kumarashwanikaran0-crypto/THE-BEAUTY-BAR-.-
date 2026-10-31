@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Beauty Bar | Luxury Beauty</title>
+<meta name="description" content="Discover luxury beauty, skincare and haircare at The Beauty Bar.">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#090909;color:#f5f0e5;font-family:Georgia,serif}
+:root{--gold:#d6b66b;--black:#090909}
+header{display:flex;justify-content:space-between;align-items:center;padding:22px 7%;border-bottom:1px solid #393124}
+.logo{color:var(--gold);font-size:25px;letter-spacing:3px}
+nav a{color:#eee;text-decoration:none;margin-left:22px;font-size:14px}
+nav a:hover{color:var(--gold)}
+.hero{min-height:580px;display:flex;align-items:center;padding:70px 9%;background:linear-gradient(90deg,#090909 15%,#090909aa 65%,#09090944),url('https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=1600') center/cover}
+.hero-content{max-width:600px}
+.eyebrow{color:var(--gold);letter-spacing:5px;font-size:12px}
+h1{font-size:clamp(45px,7vw,78px);line-height:1.1;margin:25px 0}
+h1 span{color:var(--gold);font-style:italic}
+.hero p{color:#ccc;line-height:1.8;max-width:440px}
+.btn{display:inline-block;margin-top:30px;padding:15px 28px;background:var(--gold);color:#111;text-decoration:none;font-size:13px;letter-spacing:2px;border:0;cursor:pointer}
+section{padding:85px 8%}
+.heading{text-align:center;margin-bottom:45px}
+.heading p{color:var(--gold);letter-spacing:4px;font-size:12px}
+.heading h2{font-size:38px;margin-top:15px}
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:25px}
+.card{background:#151515;border:1px solid #30291d;overflow:hidden}
+.card img{width:100%;height:240px;object-fit:cover}
+.card-content{padding:25px}
+.card h3{color:var(--gold);font-size:22px;margin-bottom:12px}
+.card p{color:#aaa;line-height:1.7;font-size:14px}
+.about{background:#14120f;text-align:center}
+.about p{max-width:700px;margin:20px auto;color:#bbb;line-height:1.9}
+.products{display:grid;grid-template-columns:repeat(3,1fr);gap:25px}
+.product{background:#151515;padding:15px;text-align:center}
+.product img{width:100%;height:220px;object-fit:cover}
+.product h3{color:var(--gold);margin:18px 0 8px}
+.product p{color:#aaa}
+.contact{text-align:center;background:#15130f}
+.contact p{color:#bbb;margin-top:15px}
+footer{text-align:center;padding:30px;color:#888;border-top:1px solid #332b20}
+footer span{color:var(--gold)}
+@media(max-width:700px){
+header{flex-direction:column;gap:18px}
+nav a{margin:0 7px;font-size:12px}
+.hero{min-height:500px}
+.services,.products{grid-template-columns:1fr}
+section{padding:60px 6%}
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">THE BEAUTY BAR</div>
+<nav>
+<a href="#home">Home</a>
+<a href="#services">Services</a>
+<a href="#products">Products</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<main>
+<div class="hero" id="home">
+<div class="hero-content">
+<p class="eyebrow">WELCOME TO THE BEAUTY BAR</p>
+<h1>Beauty is an <span>Art.</span></h1>
+<p>Discover your beauty. Celebrate your confidence. Experience a world of luxury beauty, skincare and self-care.</p>
+<a class="btn" href="#services">EXPLORE MORE</a>
+</div>
+</div>
+
+<section id="services">
+<div class="heading">
+<p>WHAT WE OFFER</p>
+<h2>Our Beauty Services</h2>
+</div>
+<div class="services">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=700" alt="Skincare">
+<div class="card-content">
+<h3>Skin Care</h3>
+<p>Give your skin the care and attention it deserves.</p>
+</div>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=700" alt="Haircare">
+<div class="card-content">
+<h3>Hair Care</h3>
+<p>Discover beautiful styles and professional hair care.</p>
+</div>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=700" alt="Makeup">
+<div class="card-content">
+<h3>Makeup & Beauty</h3>
+<p>Express your personality with timeless beauty.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="about" id="about">
+<div class="heading">
+<p>OUR STORY</p>
+<h2>About The Beauty Bar</h2>
+</div>
+<p>The Beauty Bar is a luxury beauty brand built around elegance, confidence and self-care. Our vision is to bring beauty and quality together in one beautiful destination.</p>
+</section>
+
+<section id="products">
+<div class="heading">
+<p>OUR COLLECTION</p>
+<h2>Beauty Essentials</h2>
+</div>
+<div class="products">
+<div class="product">
+<img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=700" alt="Skincare products">
+<h3>Skin Essentials</h3>
+<p>Discover skincare</p>
+</div>
+<div class="product">
+<img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=700" alt="Beauty products">
+<h3>Beauty Collection</h3>
+<p>Explore beauty</p>
+</div>
+<div class="product">
+<img src="https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?w=700" alt="Cosmetics">
+<h3>Luxury Care</h3>
+<p>Feel the luxury</p>
+</div>
+</div>
+</section>
+
+<section class="contact" id="contact">
+<div class="heading">
+<p>GET IN TOUCH</p>
+<h2>Let's Connect</h2>
+</div>
+<p>Have a question? We would love to hear from you.</p>
+<a class="btn" href="mailto:hello@thebeautybar.com">CONTACT US</a>
+</section>
+</main>
+
+<footer>
+<p>© 2026 <span>THE BEAUTY BAR</span>. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
