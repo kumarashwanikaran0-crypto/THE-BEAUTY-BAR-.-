@@ -1,0 +1,5 @@
+marquee {
+                                        text-align: center;
+                                        color: rgb(11, 11, 11);
+                                        background-image: linear-gradient(to right, rgb(213, 177, 80), rgb(243, 240, 240), rgb(171, 159, 125));
+                                        border-radius: 10px;}
